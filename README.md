@@ -22,13 +22,3 @@
 👉 [Open in Colab](https://colab.research.google.com/github/ichikawalab/imgproc/blob/main/morphology.ipynb)
 
 ---
-
-## 🛠 実行方法（Colab）
-1. 上記リンクから Colab を開く  
-2. 必要に応じて GitHub 上の画像ファイルを読み込み  
-   ```python
-   import cv2, numpy as np, urllib.request
-   url = "https://raw.githubusercontent.com/ichikawalab/imgproc/main/sample.tiff"
-   resp = urllib.request.urlopen(url)
-   img_array = np.asarray(bytearray(resp.read()), dtype=np.uint8)
-   img = cv2.imdecode(img_array, cv2.IMREAD_GRAYSCALE)
