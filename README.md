@@ -10,4 +10,4 @@
 ## 🚀 Google Colab で実行
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/ichikawalab/imgproc/blob/main/morphology.ipynb)
+https://colab.research.google.com/github.com/ichikawalab/imgproc/blob/main/7binarize/morphology.ipynb)
